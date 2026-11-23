@@ -12,14 +12,14 @@ on:
   
 jobs: 
   hello: 
-    runs-on: unbuntu-latest #github-hosted runner
+    runs-on: ubuntu-latest #github-hosted runner
     steps: 
       - uses: actions/checkout@v2
       - name: hello world
         run: echo "Hello world"
         shell: bash
   goodbye: 
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: goodbye world
         run: echo "Goodbye World"
